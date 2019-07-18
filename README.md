@@ -1,11 +1,12 @@
-#API Project: Timestamp Microservice
+# API Project: Timestamp Microservice
 
-##User Stories (WIP):
-The API endpoint is GET ```[project_url]/api/timestamp/:date_string?```
+## User Stories (WIP):
+
+The API endpoint is GET ```[url]/api/timestamp/:date_string?```
 
 A date string is valid if can be successfully parsed by new Date(date_string).
 
-###Note that the unix timestamp needs to be an integer (not a string) specifying milliseconds.
+### Note that the unix timestamp needs to be an integer (not a string) specifying milliseconds.
 In the test we will use date strings compliant with ISO-8601 (e.g. "2016-11-20") because this will ensure an UTC timestamp.
 
 If the date string is empty it should be equivalent to trigger new Date(), i.e. the service uses the current timestamp.
@@ -19,7 +20,7 @@ If the date string is invalid the api returns a JSON having the structure
 {"error" : "Invalid Date" }.
 
 
-##Example Usage:
+## Example Usage:
 
 [project url]/api/timestamp/2015-12-25
 
