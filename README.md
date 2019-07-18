@@ -2,7 +2,7 @@
 
 ## User Stories (WIP):
 
-The API endpoint is GET ```[url]/api/timestamp/:date_string?```
+The API endpoint is GET ```https://basalt-knight-1.glitch.me/api/timestamp/:date_string?```
 
 A date string is valid if can be successfully parsed by new Date(date_string).
 
@@ -22,9 +22,10 @@ If the date string is invalid the api returns a JSON having the structure
 
 ## Example Usage:
 
-[url]/api/timestamp/2015-12-25
+https://basalt-knight-1.glitch.me/api/timestamp/2015-12-25
 
-[url]/api/timestamp/1450137600
+
+https://basalt-knight-1.glitch.me/api/timestamp/1450137600
 
 Example Output:
 
